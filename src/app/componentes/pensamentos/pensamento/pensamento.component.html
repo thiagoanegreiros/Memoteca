@@ -4,10 +4,10 @@
   <p class="autoria"><b>{{ pensamento.autoria}}</b></p>
   <div class="acoes">
     <button class="botao-editar">
-      <img src="/assets/imagens/icone-editar.png" alt="Editar">
+      <img src="/assets/imagens/icone-editar.png" alt="Editar" routerLink="/form-pensamento/{{ pensamento.id }}">
     </button>
     <button class="botao-excluir">
-      <img src="/assets/imagens/icone-excluir.png" alt="Excluir">
+      <img src="/assets/imagens/icone-excluir.png" alt="Excluir" routerLink="/pensamentos/excluir-pensamento/{{ pensamento.id }}" >
     </button>
   </div>
 </div>
